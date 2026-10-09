@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 224, 179);
+    color: rgb(48, 35, 29);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+}
+
+/* Título e imagem */
+
+.titulo {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-size: 60px;
+    color: rgb(151, 35, 35);
+    text-shadow: 3px 3px rgb(190, 164, 115);
+    letter-spacing: 5px;
+}
+
+.titulo h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.titulo img {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 4px solid rgb(48, 35, 29);
+    border-radius: 10px;
+}
+
+/* Linha divisória */
+
+hr {
+    border: none;
+    border-top: 3px solid rgb(151, 35, 35);
+    margin: 20px auto;
+    max-width: 900px;
+    width: 90%;
+}
+
+/* Formulário */
+
+.container {
+    border: 2px solid rgb(151, 35, 35);
+    background-color: rgb(246, 238, 207);
+    max-width: 400px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0 rgb(80, 53, 41);
+}
+
+.container h2 {
+    text-align: center;
+    color: rgb(151, 35, 35);
+    margin-bottom: 5px;
+}
+
+.container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Cada campo do formulário */
+
+.from-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.from-control label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.from-control input,
+.from-control select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(100, 75, 55);
+    border-radius: 5px;
+    background-color: rgb(255, 251, 233);
+    color: rgb(48, 35, 29);
+    font-family: inherit;
+}
+
+.from-control input:focus,
+.from-control select:focus {
+    outline: 2px solid rgb(151, 35, 35);
+}
+
+/* Botões */
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botoes button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.btn-cadastro {
+    background-color: rgb(151, 35, 35);
+    color: white;
+}
+
+.btn-cadastro:hover {
+    background-color: rgb(110, 23, 23);
+}
+
+.btn-limpar {
+    background-color: rgb(65, 53, 43);
+    color: white;
+}
+
+.btn-limpar:hover {
+    background-color: rgb(95, 77, 60);
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rgb(80, 53, 41);
+    font-size: 14px;
+}
